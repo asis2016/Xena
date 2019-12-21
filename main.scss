@@ -1,0 +1,21 @@
+
+/*
+#D0E1ED     white
+#21BABC     bluish
+#BE844A     brownish
+#ED362C     redish
+#272429     blackish
+*/
+
+$theme-colors: (
+"primary": #0074d9,
+"danger": #ff4136,
+
+"a-p1": #BE844A,        
+"a-p2": #ED362C,           
+"a-p3": #21BABC,          
+"a-plight": #D0E1ED,   
+"a-pdark": #272429   
+);
+
+@import "node_modules/bootstrap/scss/bootstrap";
