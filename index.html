@@ -1,723 +1,895 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!--Meta-->
-        <meta charset="UTF-8">
-        <meta name="description" content="Bootstrap 4 ecommerce template. The template for free.">
-        <meta name='language' content='EN'>
-        <meta name="keywords" content="Bootstrap, Bootstrap 4, ECommerce Template, Free Bootstrap 4 Template">
-        <meta name="author" content="Ashish Singh Maharjan">
-        <meta name='designer' content='Ashish Singh Maharjan'>
-        <meta name='url' content='http://www.asm.com.np'>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <!--Meta-->
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Xena is a Bootstrap 4 ecommerce template."
+    />
+    <meta name="language" content="EN" />
+    <meta
+      name="keywords"
+      content="Bootstrap, Bootstrap 4, ECommerce Template, Free Bootstrap 4 Template"
+    />
+    <meta name="author" content="Ashish Singh Maharjan" />
+    <meta name="designer" content="Ashish Singh Maharjan" />
+    <meta name="url" content="http://www.asm.com.np" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <title>
-            Xena - A Bootstrap 4 Template
-        </title>
+    <title>Xena - A Bootstrap 4 Template</title>
 
-        <!--Website Icon-->
-        <link rel="icon" type="image/png" href="Assets/icon.png" />
+    <!--Website Icon-->
+    <link rel="icon" type="image/png" href="Assets/icon.png" />
 
-        <!--Google Fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Raleway|Nunito|Dancing+Script" rel="stylesheet">
+    <!--Google Fonts-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway|Nunito|Dancing+Script"
+      rel="stylesheet"
+    />
 
-        <!--Font Awesome-->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Font Awesome-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
-        <!--BOOTSTRAP CSS-->
-        <link href="main.css" rel="stylesheet" type="text/css"/>
+    <!--BOOTSTRAP CSS-->
+    <link href="assets/css/main.css" rel="stylesheet" type="text/css" />
 
-        <!--CUSTOM CSS-->
-        <link href="Assets/Style.css" rel="stylesheet" type="text/css"/>
-    </head>
-    <body>
+    <!--CUSTOM CSS-->
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md bg-a-p2 fixed-top">
+      <a class="navbar-brand" href="#"> XenaArts </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <i class="fa fa-bars text-white" aria-hidden="true"></i>
+      </button>
 
-        <!--HEADER STARTS-->
-        <header class="h-100 bg-a-p2" id="header">
-            <nav class="container navbar navbar-expand-lg bg-a-p2">
-                <a class="navbar-brand" href="#">
-                    XenaArts
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fa fa-bars text-white" aria-hidden="true"></i>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#topdeals">Top Deals</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#feature">Feature</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#shop">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#gallery">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#blog">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Download</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!--HEADER STARTS-->
+    <header class="header h-100 bg-a-p2" id="header">
+      <!--CAROUSEL STARTS-->
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide text-white"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleIndicators"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div
+            class="carousel-item active"
+            style="background-image: url('assets/images/ca.jpg')"
+          >
+            <div class="overlay"></div>
+            <div class="carousel-caption">
+              <h1>Steve Johnson 18'</h1>
+              <p class="lead">Ut amet posse vix, per cu dicta utroque.</p>
+              <p>
+                <button class="btn btn-a-p2">LEARN MORE</button>
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="carousel-item"
+            style="background-image: url('assets/images/cb.jpg')"
+          >
+            <div class="overlay"></div>
+            <div class="carousel-caption">
+              <h1>Hector J. Rivas</h1>
+              <p class="lead">
+                Sit ea corrumpit liberavisse, justo aliquid eam ne.
+              </p>
+              <p>
+                <button class="btn btn-a-p2">EXPLORE</button>
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="carousel-item"
+            style="background-image: url('assets/images/cc.jpg')"
+          >
+            <div class="overlay"></div>
+            <div class="carousel-caption d-none d-md-block">
+              <h1>RhondaK Folk Artist</h1>
+              <p class="lead">
+                Pri ex aeque facilis ponderum. Porro omnes sea.
+              </p>
+              <p>
+                <button class="btn btn-a-p2">HIRE NOW</button>
+              </p>
+            </div>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </header>
+    <!--HEADER ENDS-->
+
+    <!--TOP DEALS STARTS-->
+    <section
+      id="topdeals"
+      class="topdeals text-center bg-a-pdark text-a-plight"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 p-3">
+            <img
+              class="rounded-circle"
+              src="assets/images/topdeals1.png"
+              width="140"
+              height="140"
+            />
+            <h3>Home Wall Decor</h3>
+            <p>
+              Qui no praesent mnesarchum, id vis sint praesent, ut tritani
+              euripidis mnesarchum vis. Ne sumo saepe hendrerit eam. Vide omnis.
+            </p>
+            <p>
+              <a class="btn btn-a-p2" href="#" role="button"
+                >View details &raquo;</a
+              >
+            </p>
+          </div>
+          <!-- /.col-lg-4 -->
+          <div class="col-lg-4 col-md-6 p-3">
+            <img
+              class="rounded-circle"
+              src="assets/images/topdeals2.png"
+              width="140"
+              height="140"
+            />
+            <h3>Frame Collection</h3>
+            <p>
+              Alii nemore consulatu te ius. Ut atqui epicurei efficiendi sea. In
+              nam dicit forensibus liberavisse, vocibus appetere maiestatis his
+              ut.
+            </p>
+            <p>
+              <a class="btn btn-a-p2" href="#" role="button"
+                >View details &raquo;</a
+              >
+            </p>
+          </div>
+          <!-- /.col-lg-4 -->
+          <div class="col-lg-4 col-md-6 p-3">
+            <img
+              class="rounded-circle"
+              src="assets/images/topdeals3.png"
+              width="140"
+              height="140"
+            />
+            <h3>Praying Flags</h3>
+            <p>
+              Et putant iriure assentior qui, ex doming delenit nam. In vis quas
+              laudem efficiantur, tota doctus impedit qui cu in.
+            </p>
+            <p>
+              <a class="btn btn-a-p2" href="#" role="button"
+                >View details &raquo;</a
+              >
+            </p>
+          </div>
+          <!-- /.col-lg-4 -->
+        </div>
+        <!-- /.row -->
+      </div>
+    </section>
+    <!--TOP DEALS ENDS-->
+
+    <!--FEATURE STARTS-->
+    <section id="feature" class="feature bg-a-plight">
+      <div class="container">
+        <!-- START THE FEATURETTES -->
+        <div class="row featurette">
+          <div class="col-md-7 my-auto">
+            <h1 class="featurette-heading">
+              Authentic arts.
+              <span class="text-muted">It'll blow your mind.</span>
+            </h1>
+            <p class="lead">
+              Nam ut reformidans dissentiunt. Regione diceret praesent ius ut,
+              quod odio assum est ei, sit etiam ubique te. Latine vidisse ut
+              duo, ei assum meliore theophrastus mei. Has sententiae
+              disputationi ut, eam id posse numquam facilis. Posse splendide vis
+              ei. Mel ex mucius nominavi praesent. Nam et ubique pericula
+              definitiones.
+            </p>
+          </div>
+          <div class="col-md-5">
+            <img
+              class="featurette-image img-fluid"
+              src="assets/images/fea3.png"
+              alt="Generic placeholder image"
+            />
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2 my-auto">
+            <h2 class="featurette-heading">
+              Artist all over the world.
+              <span class="text-muted">Explore now!</span>
+            </h2>
+            <p class="lead">
+              Minim prompta epicurei mea id, te vix paulo audiam legendos.
+              Quodsi vituperata in his, ex atomorum accusamus persecuti eos.
+              Verterem indoctum dissentiunt vim ne. Ea pri ferri phaedrum
+              patrioque, te mucius phaedrum per, blandit recteque sea eu. Nisl
+              bonorum equidem id nec, et illum dicat conceptam per.
+            </p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img
+              class="featurette-image img-fluid mx-auto"
+              src="assets/images/fea2.png"
+              alt="Generic placeholder image"
+            />
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-7 my-auto">
+            <h2 class="featurette-heading">Legit products, 100% handmade.</h2>
+            <p class="lead">
+              Aperiam splendide assentior ei eos. Graeco officiis sed id, nec at
+              possim senserit. Odio lorem perpetua at duo. Odio ocurreret his
+              ad. Cu ius justo dolorem facilisis. Ne dignissim consequuntur eam,
+              ex sit laudem eripuit. Simul habemus est cu, veri adhuc cum no.
+              Sed ea accusata intellegat, per mollis argumentum.
+            </p>
+          </div>
+          <div class="col-md-5">
+            <img
+              class="featurette-image img-fluid mx-auto"
+              src="assets/images/fea1.png"
+              alt="Generic placeholder image"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--FEATURE ENDS-->
+
+    <!--SHOP PAGE STARTS-->
+    <section id="shop" class="featured-products">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center pb-4">
+            <h1>Paint Collection 2018</h1>
+            <p class="lead">Nisl numquam torquatos et eos, per mundi.</p>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 p-3">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="assets/images/p1.png"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Elitr vivendum.</h5>
+                <p class="card-text"></p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;Satosh
+                  Nomato
+                </li>
+              </ul>
+              <div class="card-body">
+                <button class="btn btn-block btn-a-p2">
+                  <i class="fa fa-shopping-basket" aria-hidden="true"></i>&nbsp;
+                  Add to cart
                 </button>
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto">
-
-                        <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#topdeals" >Top Deals</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link  js-scroll-trigger" href="#feature" >Feature</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link  js-scroll-trigger" href="#shop">Shop</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link  js-scroll-trigger" href="#gallery">Gallery</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#blog">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Download</a>
-                        </li>
-
-                    </ul>
-                </div>
-            </nav>
-
-            <!--CAROUSEL STARTS-->
-            <div id="carouselExampleIndicators" class="carousel slide text-white" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner" role="listbox">
-
-                    <div class="carousel-item active" style="background-image: url('Assets/img/ca.jpg')">
-                        <div class="overlay"></div>
-                        <div class="carousel-caption ">
-                            <h1>
-                                Steve Johnson 18'
-                            </h1>
-                            <p class="lead">
-                                Ut amet posse vix, per cu dicta utroque.
-                            </p>
-                            <p>
-                                <button class="btn btn-a-p2">LEARN MORE</button>
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item" style="background-image:url('Assets/img/cb.jpg')">
-                        <div class="overlay"></div>
-                        <div class="carousel-caption ">
-                            <h1>
-                                Hector J. Rivas
-                            </h1>
-                            <p class="lead">
-                                Sit ea corrumpit liberavisse, justo aliquid eam ne.
-                            </p>
-                            <p>
-                                <button class="btn btn-a-p2">EXPLORE</button>
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item" style="background-image:url('Assets/img/cc.jpg')">
-                        <div class="overlay"></div>
-                        <div class="carousel-caption d-none d-md-block">
-                            <h1>
-                                RhondaK Folk Artist
-                            </h1>
-                            <p class="lead">
-                                Pri ex aeque facilis ponderum. Porro omnes sea.
-                            </p>
-                            <p>
-                                <button class="btn btn-a-p2">HIRE NOW</button>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
+              </div>
             </div>
-        </header>
-        <!--HEADER ENDS-->
-
-        <!--TOP DEALS STARTS-->
-        <section id="topdeals" class="topdeals text-center bg-a-pdark text-a-plight">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 p-3">
-                        <img class="rounded-circle" src="Assets/img/topdeals1.png" width="140" height="140">
-                        <h3>
-                            Home Wall Decor
-                        </h3>
-                        <p>
-                            Qui no praesent mnesarchum, id vis sint praesent, ut tritani euripidis mnesarchum vis. Ne sumo saepe hendrerit eam. Vide omnis. 
-                        </p>
-                        <p><a class="btn btn-a-p2" href="#" role="button">View details &raquo;</a></p>
-                    </div><!-- /.col-lg-4 -->
-                    <div class="col-lg-4 col-md-6 p-3">
-                        <img class="rounded-circle" src="Assets/img/topdeals2.png" width="140" height="140">
-                        <h3>
-                            Frame Collection
-                        </h3>
-                        <p>
-                            Alii nemore consulatu te ius. Ut atqui epicurei efficiendi sea. In nam dicit forensibus liberavisse, vocibus appetere maiestatis his ut.
-                        </p>
-                        <p><a class="btn btn-a-p2" href="#" role="button">View details &raquo;</a></p>
-                    </div><!-- /.col-lg-4 -->
-                    <div class="col-lg-4 col-md-6 p-3">
-                        <img class="rounded-circle" src="Assets/img/topdeals3.png" width="140" height="140">
-                        <h3>
-                            Praying Flags
-                        </h3>
-                        <p>
-                            Et putant iriure assentior qui, ex doming delenit nam. In vis quas laudem efficiantur, tota doctus impedit qui cu in.
-                        </p>
-                        <p><a class="btn btn-a-p2" href="#" role="button">View details &raquo;</a></p>
-                    </div><!-- /.col-lg-4 -->
-                </div><!-- /.row -->
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 p-3">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="assets/images/p2.png"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Impedit omnesque.</h5>
+                <p class="card-text"></p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;Usu
+                  expetenda
+                </li>
+              </ul>
+              <div class="card-body">
+                <button class="btn btn-block btn-a-p2">
+                  <i class="fa fa-shopping-basket" aria-hidden="true"></i>&nbsp;
+                  Add to cart
+                </button>
+              </div>
             </div>
-        </section>
-        <!--TOP DEALS ENDS-->
-
-        <!--FEATURE STARTS-->
-        <section id="feature" class="feature bg-a-plight">
-            <div class="container">
-                <!-- START THE FEATURETTES -->
-                <div class="row featurette">
-                    <div class="col-md-7 my-auto">
-                        <h1 class="featurette-heading">Authentic arts. <span class="text-muted">It'll blow your mind.</span></h1>
-                        <p class="lead">
-                            Nam ut reformidans dissentiunt. Regione diceret praesent ius ut, quod odio assum est ei, sit etiam ubique te. Latine vidisse ut duo, ei assum meliore theophrastus mei. Has sententiae disputationi ut, eam id posse numquam facilis.
-
-                            Posse splendide vis ei. Mel ex mucius nominavi praesent. Nam et ubique pericula definitiones.
-                        </p>
-                    </div>
-                    <div class="col-md-5">
-                        <img class="featurette-image img-fluid" src="Assets/img/fea3.png" alt="Generic placeholder image">
-                    </div>
-                </div>
-
-                <hr class="featurette-divider">
-
-                <div class="row featurette">
-                    <div class="col-md-7 order-md-2 my-auto">
-                        <h2 class="featurette-heading">Artist all over the world. <span class="text-muted">Explore now!</span></h2>
-                        <p class="lead">
-                            Minim prompta epicurei mea id, te vix paulo audiam legendos. Quodsi vituperata in his, ex atomorum accusamus persecuti eos. Verterem indoctum dissentiunt vim ne. 
-                            Ea pri ferri phaedrum patrioque, te mucius phaedrum per, blandit recteque sea eu. Nisl bonorum equidem id nec, et illum dicat conceptam per.
-                        </p>
-                    </div>
-                    <div class="col-md-5 order-md-1">
-                        <img class="featurette-image img-fluid mx-auto" src="Assets/img/fea2.png" alt="Generic placeholder image">
-                    </div>
-                </div>
-
-                <hr class="featurette-divider">
-
-                <div class="row featurette">
-                    <div class="col-md-7 my-auto">
-                        <h2 class="featurette-heading">Legit products, 100% handmade.</h2>
-                        <p class="lead">
-                            Aperiam splendide assentior ei eos. Graeco officiis sed id, nec at possim senserit. Odio lorem perpetua at duo. Odio ocurreret his ad. Cu ius justo dolorem facilisis.
-
-                            Ne dignissim consequuntur eam, ex sit laudem eripuit. Simul habemus est cu, veri adhuc cum no. Sed ea accusata intellegat, per mollis argumentum.
-                        </p>
-                    </div>
-                    <div class="col-md-5">
-                        <img class="featurette-image img-fluid mx-auto" src="Assets/img/fea1.png" alt="Generic placeholder image">
-                    </div>
-                </div>
-
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 p-3">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="assets/images/p3.png"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Ne quo.</h5>
+                <p class="card-text"></p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;Satosh
+                  Nomato
+                </li>
+              </ul>
+              <div class="card-body">
+                <button class="btn btn-block btn-a-p2">
+                  <i class="fa fa-shopping-basket" aria-hidden="true"></i>&nbsp;
+                  Add to cart
+                </button>
+              </div>
             </div>
-        </section>
-        <!--FEATURE ENDS-->
-
-        <!--SHOP PAGE STARTS-->
-        <section id="shop" class="featured-products">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center pb-4">
-                        <h1>
-                            Paint Collection 2018
-                        </h1>
-                        <p class="lead">
-                            Nisl numquam torquatos et eos, per mundi.
-                        </p>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 p-3">
-                        <div class="card">
-                            <img class="card-img-top" src="Assets/img/p1.png" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">
-                                    Elitr vivendum.
-                                </h5>
-                                <p class="card-text">
-
-                                </p>
-                            </div>
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item"><i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;Satosh Nomato</li>
-                            </ul>
-                            <div class="card-body">
-                                <button class="btn btn-block btn-a-p2"><i class="fa fa-shopping-basket" aria-hidden="true"></i>&nbsp;
-                                    Add to cart
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 p-3">
-                        <div class="card">
-                            <img class="card-img-top" src="Assets/img/p2.png" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">
-                                    Impedit omnesque.
-                                </h5>
-                                <p class="card-text">
-
-                                </p>
-                            </div>
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item"><i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;Usu expetenda</li>
-                            </ul>
-                            <div class="card-body">
-                                <button class="btn btn-block btn-a-p2"><i class="fa fa-shopping-basket" aria-hidden="true"></i>&nbsp;
-                                    Add to cart
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 p-3">
-                        <div class="card">
-                            <img class="card-img-top" src="Assets/img/p3.png" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">
-                                    Ne quo.
-                                </h5>
-                                <p class="card-text">
-
-                                </p>
-                            </div>
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item"><i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;Satosh Nomato</li>
-                            </ul>
-                            <div class="card-body">
-                                <button class="btn btn-block btn-a-p2"><i class="fa fa-shopping-basket" aria-hidden="true"></i>&nbsp;
-                                    Add to cart
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 p-3">
-                        <div class="card">
-                            <img class="card-img-top" src="Assets/img/p4.png" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">
-                                    Nam everti.
-                                </h5>
-                                <p class="card-text">
-
-                                </p>
-                            </div>
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item"><i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;
-                                    Ne definiebas
-                                </li>
-                            </ul>
-                            <div class="card-body">
-                                <button class="btn btn-block btn-a-p2"><i class="fa fa-shopping-basket" aria-hidden="true"></i>&nbsp;
-                                    Add to cart
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 col-sm-12 p-3">
-                        <div class="card">
-                            <img class="card-img-top" src="Assets/img/p5.png" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">
-                                    Mel ex 19
-                                </h5>
-                                <p class="card-text">
-
-                                </p>
-                            </div>
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item"><i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;
-                                    Facer aliquip
-                                </li>
-                            </ul>
-                            <div class="card-body">
-                                <button class="btn btn-block btn-a-p2"><i class="fa fa-shopping-basket" aria-hidden="true"></i>&nbsp;
-                                    Add to cart
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col-lg-3 col-md-6 col-sm-12 p-3">
-                        <div class="card">
-                            <img class="card-img-top" src="Assets/img/p6.png" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">
-                                    At velit 2017
-                                </h5>
-                                <p class="card-text">
-
-                                </p>
-                            </div>
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item"><i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;
-                                    Populo eruditi
-                                </li>
-                            </ul>
-                            <div class="card-body">
-                                <button class="btn btn-block btn-a-p2"><i class="fa fa-shopping-basket" aria-hidden="true"></i>&nbsp;
-                                    Add to cart
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 p-3">
-                        <div class="card">
-                            <img class="card-img-top" src="Assets/img/p7.png" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">
-                                    Ut utinam 11
-                                </h5>
-                                <p class="card-text">
-
-                                </p>
-                            </div>
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item"><i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;
-                                    Ipsum expetendis
-                                </li>
-                            </ul>
-                            <div class="card-body">
-                                <button class="btn btn-block btn-a-p2"><i class="fa fa-shopping-basket" aria-hidden="true"></i>&nbsp;
-                                    Add to cart
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 p-3">
-                        <div class="card">
-                            <img class="card-img-top" src="Assets/img/p8.png" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">
-                                    In eum A
-                                </h5>
-                                <p class="card-text">
-
-                                </p>
-                            </div>
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item"><i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;
-                                    Oratio dignissim
-                                </li>
-                            </ul>
-                            <div class="card-body">
-                                <button class="btn btn-block btn-a-p2"><i class="fa fa-shopping-basket" aria-hidden="true"></i>&nbsp;
-                                    Add to cart
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 p-3">
-                        <div class="card">
-                            <img class="card-img-top" src="Assets/img/p9.png" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">
-                                    Harum vocibus 1
-                                </h5>
-                                <p class="card-text">
-
-                                </p>
-                            </div>
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item"><i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;
-                                    In dolore
-                                </li>
-                            </ul>
-                            <div class="card-body">
-                                <button class="btn btn-block btn-a-p2"><i class="fa fa-shopping-basket" aria-hidden="true"></i>&nbsp;
-                                    Add to cart
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 p-3">
-                        <div class="card">
-                            <img class="card-img-top" src="Assets/img/p10.png" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">
-                                    Vel malorum.
-                                </h5>
-                                <p class="card-text">
-
-                                </p>
-                            </div>
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item"><i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;
-                                    Aeterno platonem
-                                </li>
-                            </ul>
-                            <div class="card-body">
-                                <button class="btn btn-block btn-a-p2"><i class="fa fa-shopping-basket" aria-hidden="true"></i>&nbsp;
-                                    Add to cart
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 p-3">
-                        <div class="card">
-                            <img class="card-img-top" src="Assets/img/p11.png" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">
-                                    Wisi exerci.
-                                </h5>
-                                <p class="card-text">
-
-                                </p>
-                            </div>
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item"><i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;
-                                    Te sonet
-                                </li>
-                            </ul>
-                            <div class="card-body">
-                                <button class="btn btn-block btn-a-p2"><i class="fa fa-shopping-basket" aria-hidden="true"></i>&nbsp;
-                                    Add to cart
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 p-3">
-                        <div class="card">
-                            <img class="card-img-top" src="Assets/img/p12.png" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">
-                                    Per velit.
-                                </h5>
-                                <p class="card-text">
-
-                                </p>
-                            </div>
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item"><i class="fa fa-pencil" aria-hidden="true"></i>&nbsp;
-                                    Nusquam volutpat
-                                </li>
-                            </ul>
-                            <div class="card-body">
-                                <button class="btn btn-block btn-a-p2"><i class="fa fa-shopping-basket" aria-hidden="true"></i>&nbsp;
-                                    Add to cart
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 p-3">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="assets/images/p4.png"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Nam everti.</h5>
+                <p class="card-text"></p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <i class="fa fa-pencil" aria-hidden="true"></i>&nbsp; Ne
+                  definiebas
+                </li>
+              </ul>
+              <div class="card-body">
+                <button class="btn btn-block btn-a-p2">
+                  <i class="fa fa-shopping-basket" aria-hidden="true"></i>&nbsp;
+                  Add to cart
+                </button>
+              </div>
             </div>
-        </section>
-        <!--SHOP PAGE ENDS-->
+          </div>
 
-        <!--GALLERY STARTS-->
-        <section id="gallery" class="home-gallery-1 bg-a-pdark">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center pb-4 text-a-plight">
-                        <h1>
-                            Featured Gallery 18'
-                        </h1>
-                        <p class="lead">
-                            Per iusto inermis an, has cu nibh.
-                        </p>
-                    </div>
-                    <div class="card-columns">
-
-                        <div class="card">
-                            <img class="card-img"  src="Assets/img/245x245-1.png" alt="Card image">
-                        </div>
-
-                        <div class="card">
-                            <img class="card-img"  src="Assets/img/245x345-1.png" alt="Card image">
-                        </div>
-
-                        <div class="card">
-                            <img class="card-img"  src="Assets/img/245x160-1.png" alt="Card image">
-                        </div>
-
-                        <div class="card">
-                            <img class="card-img"  src="Assets/img/245x160-2.png" alt="Card image">
-                        </div>
-
-                        <div class="card">
-                            <img class="card-img"  src="Assets/img/245x345-3.png" alt="Card image">
-                        </div>
-
-                        <div class="card">
-                            <img class="card-img"  src="Assets/img/245x160-4.png" alt="Card image">
-                        </div>
-
-                        <div class="card">
-                            <img class="card-img"  src="Assets/img/245x80-1.png"  alt="Card image">
-                        </div>
-
-                        <div class="card">
-                            <img class="card-img"  src="Assets/img/245x345-2.png" alt="Card image">
-                        </div>
-
-                        <div class="card">
-                            <img class="card-img" src="Assets/img/245x160-3.png" alt="Card image">
-                        </div>
-
-                        <div class="card">
-                            <img class="card-img"  src="Assets/img/245x245-3.png" alt="Card image">
-                        </div>
-                    </div>
-                </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 p-3">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="assets/images/p5.png"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Mel ex 19</h5>
+                <p class="card-text"></p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <i class="fa fa-pencil" aria-hidden="true"></i>&nbsp; Facer
+                  aliquip
+                </li>
+              </ul>
+              <div class="card-body">
+                <button class="btn btn-block btn-a-p2">
+                  <i class="fa fa-shopping-basket" aria-hidden="true"></i>&nbsp;
+                  Add to cart
+                </button>
+              </div>
             </div>
-        </section>
-        <!--GALLERY ENDS-->
+          </div>
 
-        <!--BLOG STARTS-->
-        <section id="blog" class="blog bg-a-plight">
-            <div class="container">
-                <div class="jumbotron text-white">
-                    <div class="video-section">
-                        <video autoplay="true" loop="loop" preload="metadata" muted="muted">
-                            <source src="https://storage.googleapis.com/coverr-main/mp4/Pink-wall.mp4" type="video/mp4" />
-                        </video>
-                    </div>
-
-
-                    <div class="col-md-6 px-0 content-left">
-                        <h1 class="text-a-plight">Latest blog stories</h1>
-                        <p class="lead my-3 text-a-plight">
-                            Ludus legere vituperatoribus an eum, ea ius discere voluptatibus mediocritatem. Elit probatus id qui, 
-                            viris partiendo scripserit ea sit. Scripta equidem cu eos, case eius nostrum ut mea. Cu nam.
-                        </p>
-                        <p class="lead mb-0">
-                            <a href="#" class="text-a-p2">
-                                Continue reading...
-                            </a>
-                        </p>
-                    </div>
-                </div>
-
-                <div class="row mb-2">
-                    <div class="col-lg-6 col-md-12">
-                        <div class="card flex-md-row mb-4 box-shadow h-md-250">
-                            <div class="card-body d-flex flex-column align-items-start">
-                                <strong class="d-inline-block mb-2 text-a-p1">
-                                    Artist
-                                </strong>
-                                <h3 class="mb-0">
-                                    <a class="text-a-p2" href="#">
-                                        Collection
-                                    </a>
-                                </h3>
-                                <div class="mb-1 text-muted">Oct 12</div>
-                                <p class="card-text mb-auto">
-                                    This is a wider card with supporting text below as a natural lead-in to additional content.
-                                </p>
-                                <a class="text-a-p2" href="#">Continue reading</a>
-                            </div>
-                            <img class="card-img-right flex-auto d-none d-md-block" src="Assets/img/blog1.png" height="250px" alt="Card image cap">
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-12">
-                        <div class="card flex-md-row mb-4 box-shadow h-md-250">
-                            <div class="card-body d-flex flex-column align-items-start">
-                                <strong class="d-inline-block mb-2 text-a-p1">
-                                    Design
-                                </strong>
-                                <h3 class="mb-0">
-                                    <a class="text-a-p2" href="#">Home decor</a>
-                                </h3>
-                                <div class="mb-1 text-muted">Dec 09</div>
-                                <p class="card-text mb-auto">
-                                    This is a wider card with supporting text below as a natural lead-in to additional content.
-                                </p>
-                                <a class="text-a-p2" href="#">Continue reading</a>
-                            </div>
-                            <img class="card-img-right flex d-none d-md-block" src="Assets/img/blog2.png" height="250px" alt="Card image cap">
-                        </div>
-                    </div>
-                </div>
-
-                <row class="col-lg-12">
-                    <hr>
-                    <small>
-                        <p class="float-right"><a href="#header" class="js-scroll-trigger text-a-p2">Back to top</a></p>
-                    </small>
-
-                    <small>
-                        <p>© 2017-2018 Xena. · <a href="#" class="text-a-p2">Privacy</a> · <a href="#" class="text-a-p2">Terms</a></p>
-                    </small>
-                </row>
-
+          <div class="col-lg-3 col-md-6 col-sm-12 p-3">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="assets/images/p6.png"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">At velit 2017</h5>
+                <p class="card-text"></p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <i class="fa fa-pencil" aria-hidden="true"></i>&nbsp; Populo
+                  eruditi
+                </li>
+              </ul>
+              <div class="card-body">
+                <button class="btn btn-block btn-a-p2">
+                  <i class="fa fa-shopping-basket" aria-hidden="true"></i>&nbsp;
+                  Add to cart
+                </button>
+              </div>
             </div>
-        </section>
-        <!--BLOG ENDS-->
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 p-3">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="assets/images/p7.png"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Ut utinam 11</h5>
+                <p class="card-text"></p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <i class="fa fa-pencil" aria-hidden="true"></i>&nbsp; Ipsum
+                  expetendis
+                </li>
+              </ul>
+              <div class="card-body">
+                <button class="btn btn-block btn-a-p2">
+                  <i class="fa fa-shopping-basket" aria-hidden="true"></i>&nbsp;
+                  Add to cart
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 p-3">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="assets/images/p8.png"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">In eum A</h5>
+                <p class="card-text"></p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <i class="fa fa-pencil" aria-hidden="true"></i>&nbsp; Oratio
+                  dignissim
+                </li>
+              </ul>
+              <div class="card-body">
+                <button class="btn btn-block btn-a-p2">
+                  <i class="fa fa-shopping-basket" aria-hidden="true"></i>&nbsp;
+                  Add to cart
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 p-3">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="assets/images/p9.png"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Harum vocibus 1</h5>
+                <p class="card-text"></p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <i class="fa fa-pencil" aria-hidden="true"></i>&nbsp; In
+                  dolore
+                </li>
+              </ul>
+              <div class="card-body">
+                <button class="btn btn-block btn-a-p2">
+                  <i class="fa fa-shopping-basket" aria-hidden="true"></i>&nbsp;
+                  Add to cart
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 p-3">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="assets/images/p10.png"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Vel malorum.</h5>
+                <p class="card-text"></p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <i class="fa fa-pencil" aria-hidden="true"></i>&nbsp; Aeterno
+                  platonem
+                </li>
+              </ul>
+              <div class="card-body">
+                <button class="btn btn-block btn-a-p2">
+                  <i class="fa fa-shopping-basket" aria-hidden="true"></i>&nbsp;
+                  Add to cart
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 p-3">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="assets/images/p11.png"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Wisi exerci.</h5>
+                <p class="card-text"></p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <i class="fa fa-pencil" aria-hidden="true"></i>&nbsp; Te sonet
+                </li>
+              </ul>
+              <div class="card-body">
+                <button class="btn btn-block btn-a-p2">
+                  <i class="fa fa-shopping-basket" aria-hidden="true"></i>&nbsp;
+                  Add to cart
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 p-3">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="assets/images/p12.png"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Per velit.</h5>
+                <p class="card-text"></p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <i class="fa fa-pencil" aria-hidden="true"></i>&nbsp; Nusquam
+                  volutpat
+                </li>
+              </ul>
+              <div class="card-body">
+                <button class="btn btn-block btn-a-p2">
+                  <i class="fa fa-shopping-basket" aria-hidden="true"></i>&nbsp;
+                  Add to cart
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--SHOP PAGE ENDS-->
 
-        <!-- Bootstrap core JavaScript -->
-        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    <!--GALLERY STARTS-->
+    <section id="gallery" class="home-gallery-1 bg-a-pdark">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center pb-4 text-a-plight">
+            <h1>Featured Gallery 18'</h1>
+            <p class="lead">Per iusto inermis an, has cu nibh.</p>
+          </div>
+          <div class="card-columns">
+            <div class="card">
+              <img
+                class="card-img"
+                src="assets/images/245x245-1.png"
+                alt="Card image"
+              />
+            </div>
 
-        <script src="file:///F:/ProgramFiles/Wamp/www/bootstrap4/assets/js/vendor/holder.min.js"></script>
+            <div class="card">
+              <img
+                class="card-img"
+                src="assets/images/245x345-1.png"
+                alt="Card image"
+              />
+            </div>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+            <div class="card">
+              <img
+                class="card-img"
+                src="assets/images/245x160-1.png"
+                alt="Card image"
+              />
+            </div>
 
-        <!-- Custom scripts for this template -->
-        <script type='text/javascript'>
-            (function ($) {
-                "use strict"; // Start of use strict
+            <div class="card">
+              <img
+                class="card-img"
+                src="assets/images/245x160-2.png"
+                alt="Card image"
+              />
+            </div>
 
-                // Smooth scrolling using jQuery easing
-                $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
-                    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-                        var target = $(this.hash);
-                        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                        if (target.length) {
-                            $('html, body').animate({
-                                scrollTop: (target.offset().top - 70)
-                            }, 1000, "easeInOutExpo");
-                            return false;
-                        }
-                    }
-                });
+            <div class="card">
+              <img
+                class="card-img"
+                src="assets/images/245x345-3.png"
+                alt="Card image"
+              />
+            </div>
 
-                // Activate scrollspy to add active class to navbar items on scroll
-                $('body').scrollspy({
-                    target: '#mainNav',
-                    offset: 100
-                });
+            <div class="card">
+              <img
+                class="card-img"
+                src="assets/images/245x160-4.png"
+                alt="Card image"
+              />
+            </div>
 
-                // Collapse Navbar
-                var navbarCollapse = function () {
-                    if ($("#mainNav").offset().top > 100) {
-                        $("#mainNav").addClass("navbar-shrink");
-                    } else {
-                        $("#mainNav").removeClass("navbar-shrink");
-                    }
-                };
-                // Collapse now if page is not at top
-                navbarCollapse();
-                // Collapse the navbar when page is scrolled
-                $(window).scroll(navbarCollapse);
+            <div class="card">
+              <img
+                class="card-img"
+                src="assets/images/245x80-1.png"
+                alt="Card image"
+              />
+            </div>
 
-            })(jQuery); // End of use strict
+            <div class="card">
+              <img
+                class="card-img"
+                src="assets/images/245x345-2.png"
+                alt="Card image"
+              />
+            </div>
 
-        </script>
+            <div class="card">
+              <img
+                class="card-img"
+                src="assets/images/245x160-3.png"
+                alt="Card image"
+              />
+            </div>
 
-        <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js" type="text/javascript" charset="utf-8"></script>
-        <script type="text/javascript">
-            $(document).on('ready', function () {
+            <div class="card">
+              <img
+                class="card-img"
+                src="assets/images/245x245-3.png"
+                alt="Card image"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--GALLERY ENDS-->
 
-                $(".variable").slick({
-                    dots: true,
-                    infinite: true,
-                    variableWidth: true
-                });
+    <!--BLOG STARTS-->
+    <section id="blog" class="blog bg-a-plight">
+      <div class="container">
+        <div class="jumbotron text-white">
+          <div class="video-section">
+            <video autoplay="true" loop="loop" preload="metadata" muted="muted">
+              <source
+                src="https://storage.googleapis.com/coverr-main/mp4/Pink-wall.mp4"
+                type="video/mp4"
+              />
+            </video>
+          </div>
 
-            });
-        </script>
-    </body>
+          <div class="col-md-6 px-0 content-left">
+            <h1 class="text-a-plight">Latest blog stories</h1>
+            <p class="lead my-3 text-a-plight">
+              Ludus legere vituperatoribus an eum, ea ius discere voluptatibus
+              mediocritatem. Elit probatus id qui, viris partiendo scripserit ea
+              sit. Scripta equidem cu eos, case eius nostrum ut mea. Cu nam.
+            </p>
+            <p class="lead mb-0">
+              <a href="#" class="text-a-p2"> Continue reading... </a>
+            </p>
+          </div>
+        </div>
+
+        <div class="row mb-2">
+          <div class="col-lg-6 col-md-12">
+            <div class="card flex-md-row mb-4 box-shadow h-md-250">
+              <div class="card-body d-flex flex-column align-items-start">
+                <strong class="d-inline-block mb-2 text-a-p1"> Artist </strong>
+                <h3 class="mb-0">
+                  <a class="text-a-p2" href="#"> Collection </a>
+                </h3>
+                <div class="mb-1 text-muted">Oct 12</div>
+                <p class="card-text mb-auto">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content.
+                </p>
+                <a class="text-a-p2" href="#">Continue reading</a>
+              </div>
+              <img
+                class="card-img-right flex-auto d-none d-md-block"
+                src="assets/images/blog1.png"
+                height="250px"
+                alt="Card image cap"
+              />
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12">
+            <div class="card flex-md-row mb-4 box-shadow h-md-250">
+              <div class="card-body d-flex flex-column align-items-start">
+                <strong class="d-inline-block mb-2 text-a-p1"> Design </strong>
+                <h3 class="mb-0">
+                  <a class="text-a-p2" href="#">Home decor</a>
+                </h3>
+                <div class="mb-1 text-muted">Dec 09</div>
+                <p class="card-text mb-auto">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content.
+                </p>
+                <a class="text-a-p2" href="#">Continue reading</a>
+              </div>
+              <img
+                class="card-img-right flex d-none d-md-block"
+                src="assets/images/blog2.png"
+                height="250px"
+                alt="Card image cap"
+              />
+            </div>
+          </div>
+        </div>
+
+        <row class="col-lg-12">
+          <hr />
+          <small>
+            <p class="float-right">
+              <a href="#header" class="js-scroll-trigger text-a-p2"
+                >Back to top</a
+              >
+            </p>
+          </small>
+
+          <small>
+            <p>
+              © 2017-2018 Xena. · <a href="#" class="text-a-p2">Privacy</a> ·
+              <a href="#" class="text-a-p2">Terms</a>
+            </p>
+          </small>
+        </row>
+      </div>
+    </section>
+    <!--BLOG ENDS-->
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+
+    <script src="file:///F:/ProgramFiles/Wamp/www/bootstrap4/assets/js/vendor/holder.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script type="text/javascript">
+      (function ($) {
+        "use strict"; // Start of use strict
+
+        // Smooth scrolling using jQuery easing
+        $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
+          if (
+            location.pathname.replace(/^\//, "") ==
+              this.pathname.replace(/^\//, "") &&
+            location.hostname == this.hostname
+          ) {
+            var target = $(this.hash);
+            target = target.length
+              ? target
+              : $("[name=" + this.hash.slice(1) + "]");
+            if (target.length) {
+              $("html, body").animate(
+                {
+                  scrollTop: target.offset().top - 70,
+                },
+                1000,
+                "easeInOutExpo"
+              );
+              return false;
+            }
+          }
+        });
+
+        // Activate scrollspy to add active class to navbar items on scroll
+        $("body").scrollspy({
+          target: "#mainNav",
+          offset: 100,
+        });
+
+        // Collapse Navbar
+        var navbarCollapse = function () {
+          if ($("#mainNav").offset().top > 100) {
+            $("#mainNav").addClass("navbar-shrink");
+          } else {
+            $("#mainNav").removeClass("navbar-shrink");
+          }
+        };
+        // Collapse now if page is not at top
+        navbarCollapse();
+        // Collapse the navbar when page is scrolled
+        $(window).scroll(navbarCollapse);
+      })(jQuery); // End of use strict
+    </script>
+
+    <script
+      src="https://code.jquery.com/jquery-2.2.0.min.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"
+      type="text/javascript"
+      charset="utf-8"
+    ></script>
+    <script type="text/javascript">
+      $(document).on("ready", function () {
+        $(".variable").slick({
+          dots: true,
+          infinite: true,
+          variableWidth: true,
+        });
+      });
+    </script>
+  </body>
 </html>

@@ -1,0 +1,24 @@
+{
+  "name": "xena-bootstrap4",
+  "version": "1.0.0",
+  "description": "Xena is a Bootstrap 4 ecommerce template.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch assets/css/style.scss assets/css/style.css",
+    "prettier": "prettier --write '**/*.{js,scss,html}'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asis2016/xena-bootstrap4.git"
+  },
+  "author": "Ashish Singh Maharjan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asis2016/xena-bootstrap4/issues"
+  },
+  "homepage": "https://github.com/asis2016/xena-bootstrap4#readme",
+  "devDependencies": {
+    "prettier": "2.2.1"
+  }
+}

@@ -1,0 +1,170 @@
+/* 
+    Created on      :   Sep 9, 2018
+    Author          :   Ashish Singh Maharjan
+    Auther URI      :   http://www.asm.com.np
+    Description     :   This theme is designed for ecommerce website. 
+                        Shout out to http://www.unsplash.com for wonderful hd images.
+*/
+/* HOME PAGE */
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Nunito", sans-serif;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+}
+
+.header {
+  padding-top: 50px;
+}
+
+/*
+NAVBAR
+--------------------------------------------------------------------------------*/
+.navbar .navbar-brand {
+  font-family: "Dancing Script", cursive;
+  color: #fff;
+  font-size: 2rem;
+}
+.navbar .nav-link {
+  color: #fff;
+  font-family: "Raleway", cursive;
+  font-weight: 600;
+}
+.navbar:hover {
+  color: #d0e1ed;
+}
+
+.navbar-collapse {
+  z-index: 15;
+}
+
+.carousel {
+  z-index: 5;
+}
+.carousel .carousel-item {
+  height: 93vh;
+  min-height: 300px;
+  background: no-repeat scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: 2;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  opacity: 0.2;
+  z-index: 1;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  z-index: 3;
+}
+
+.carousel-caption {
+  z-index: 4;
+}
+
+/*
+TOP DEALS
+--------------------------------------------------------------------------------*/
+.topdeals {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+.topdeals img {
+  margin-bottom: 2rem;
+}
+
+/*
+FEATURETTE
+--------------------------------------------------------------------------------*/
+.feature {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.3);
+}
+.feature .featurette-heading {
+  color: #ed362c;
+}
+.feature .text-muted {
+  color: #be844a !important;
+}
+
+/*
+FEATURED PRODUCTS
+--------------------------------------------------------------------------------*/
+.featured-products {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+/*
+GALLERY PAGE
+--------------------------------------------------------------------------------*/
+.home-gallery-1 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.3);
+}
+.home-gallery-1 .card {
+  border: 0;
+}
+
+/*
+BLOG
+--------------------------------------------------------------------------------*/
+.blog {
+  padding-top: 6rem;
+}
+
+.jumbotron {
+  position: relative;
+  width: 100%;
+}
+.jumbotron .content-left {
+  position: relative;
+  z-index: 2;
+}
+
+.video-section {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+}
+
+.blog .card {
+  border: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
