@@ -1,4 +1,4 @@
-# Xena-bs4
+# xena-bootstrap4
 Xena Arts is a free Bootstrap 4 template for artist.
 
 Live: https://asis2016.github.io/xena-bootstrap4/
