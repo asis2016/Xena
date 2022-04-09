@@ -1,10 +1,14 @@
 # xena-bootstrap4
-Xena Arts is a free Bootstrap 4 template for artist.
 
-Live: https://asis2016.github.io/xena-bootstrap4/
+Xena Arts is a free Bootstrap 4 template for artist. It is a single page application theme.
 
-Images from [Unsplash.com](https://unsplash.com)
+## Demo
+
+https://asis2016.github.io/xena-bootstrap4/
 
 ## Screenshot
 ![Screenshot](/screenshots/screenshot.png)
+
+## Shout-out
+- [unsplash.com](https://unsplash.com/)
 
